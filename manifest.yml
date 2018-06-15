@@ -1,0 +1,6 @@
+---
+applications:
+  - name: logtester
+    command: rackup -p $PORT
+    memory: 64M
+    buildpack: ruby_buildpack
